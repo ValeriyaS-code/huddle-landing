@@ -1,0 +1,50 @@
+body {
+    background-color: #674baf;
+    background-image: url("images/bg-desktop.svg");
+}
+
+header img {
+    width: 250px;
+    height: 55px;
+    margin: 65px 75px;
+}
+
+.main-div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: fixed;
+    margin: 0 75px;
+}
+
+.main-img {
+    width: 650px;
+    height: 500px;
+}
+
+.content {
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 40px;
+    line-height: 1.5;
+    margin-bottom: 25px; 
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 17px;
+    color: #674baf;
+    border-style: none;
+}
