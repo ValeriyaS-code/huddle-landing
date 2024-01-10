@@ -12,7 +12,6 @@ header img {
 .main-div {
     display: grid;
     grid-template-columns: 50% 50%;
-    position: fixed;
     margin: 0 75px;
 }
 
@@ -35,7 +34,6 @@ h1 {
 
 p {
     font-family: 'Open Sans', sans-serif;
-    padding-right: 40px;
     line-height: 1.5;
     margin-bottom: 25px; 
 }
@@ -47,4 +45,17 @@ button {
     font-size: 17px;
     color: #674baf;
     border-style: none;
+}
+
+footer {
+    margin: 0 75px;
+}
+
+footer i {
+    float: right;
+    margin-left: 15px;
+    color: #FFFFFF;
+    border: 1px solid white;
+    padding: 17px;
+    border-radius: 40px;
 }
