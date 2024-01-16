@@ -1,61 +1,96 @@
 body {
     background-color: #674baf;
-    background-image: url("images/bg-desktop.svg");
+    margin: 40px 80px;
 }
 
-header img {
-    width: 250px;
-    height: 55px;
-    margin: 65px 75px;
+.logo {
+    width: 200px;
+    height: 150px;
 }
 
 .main-div {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin: 0 75px;
-}
-
-.main-img {
-    width: 650px;
-    height: 500px;
-}
-
-.content {
-    margin-top: 30px;
-    margin-left: 50px;
-    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
 }
 
 h1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 45px;
-    font-weight: 400;
+    margin-top: 45px;
+    font-size: 38px;
+    line-height: 1.5;
+    font-weight: 400;  
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
     line-height: 1.5;
-    margin-bottom: 25px; 
 }
 
 button {
     width: 200px;
-    height: 50px;
-    border-radius: 25px;
-    font-size: 17px;
+    height: 55px;
     color: #674baf;
-    border-style: none;
+    font-size: 16px;
+    border: 1px solid #674baf;
+    border-radius: 50px;
+    margin-top: 20px;
 }
 
 footer {
-    margin: 0 75px;
+    display: flex;
+    justify-content: flex-end;
+    color: #ffffff;
 }
 
 footer i {
-    float: right;
-    margin-left: 15px;
-    color: #FFFFFF;
-    border: 1px solid white;
-    padding: 17px;
-    border-radius: 40px;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    margin-left: 25px;
+    padding: 15px;
 }
+
+
+
+@media only screen and (max-width: 375px) {
+    .logo {
+        width: 150px;
+        height: 80px;
+    }
+    .main-img {
+        width: 200px;
+        height: 150px;
+    }
+    .main-div {
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+    }
+
+    h1{
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 25px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    button {
+        width: 150px;
+        height: 45px;
+    }
+
+    footer {
+        justify-content: center;
+        margin-top: 55px;
+    }
+
+    footer i {
+        padding: 10px;
+    }
+  }
+
